@@ -8,6 +8,7 @@
 
   <link href="font/BEYNO.otf" rel="stylesheet">
   <link href="font/BEYNO.ttf" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <meta property="og:title" content="" />
   <meta property="og:description" content=" " />
@@ -52,19 +53,21 @@
             <li class="dropdown">
               <a href="#" data-toggle="dropdown" class="dropdown-toggle">Products</a>
               <ul class="dropdown-menu" id="menu1">
-              <li><a href="#"><img src="img/caret-right.png"> Name Surname</a></li>
-              <li><a href="#"><img src="img/caret-right.png"> Nelson Noa</a></li>
+              <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Name Surname</a></li>
+              <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Nelson Noa</a></li>
                 <li>
-                  <a href="#"><img src="img/caret-right.png"> Name Surname</a>
+                  <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Name Surname</a>
                   <ul class="dropdown-menu sub-menu">
-                    <li><a href="#"><img src="img/caret-right.png"> Name Surname</a></li>
-                    <li><a href="#"><img src="img/caret-right.png"> Nelson Noa</a></li>
-                    <li><a href="#"><img src="img/caret-right.png"> Name Surname</a></li>
-                    <li><a href="#"><img src="img/caret-right.png"> Nelson Noa</a></li>
-                    <li><a href="#"><img src="img/caret-right.png"> Nelson Noa Cris</a></li>
+                    <li>
+                    <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>
+                    <i class="fa fa-angle-right item-menu-hover" aria-hidden="true"></i> Name Surname</a></li>
+                    <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Nelson Noa</a></li>
+                    <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Name Surname</a></li>
+                    <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Nelson Noa</a></li>
+                    <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Nelson Noa Cris</a></li>
                   </ul>
                 </li>
-                <li><a href="#"><img src="img/caret-right.png"> Nelson Noa</a></li>
+                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Nelson Noa</a></li>
               </ul>
             </li>
             <li><a href="#">About</a></li>
@@ -110,9 +113,9 @@
         </div>
     </div>
     <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-    <img src="img/caret-left.png"></a>
+    <i class="fa fa-angle-left" aria-hidden="true"></i></a>
     <a class="right carousel-control"
-        href="#carousel-example-generic" data-slide="next"><img src="img/caret-right.png"></a></a>
+        href="#carousel-example-generic" data-slide="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
   </div>
   <div class="main-text hidden-xs">
       <div class="col-md-12 text-center">
@@ -121,66 +124,105 @@
       </div>
   </div>
 </section>
-<section id="footer">
-    <div class="container">
-        <div class="row text-center">
-            <div class="col-md-6 col-md-offset-3">
-                <h2><span class="text-success">Get in</span> touch</h2>
-                <p>
-                    Quisque fermentum, nisl mattis volutpat rhoncus, tellus est congue nibh, ut euismod quam nisi quis felis. Nullam at scelerisque tellus mattis volutpat rhoncus,
-                </p>
-            </div>
-        </div>
-
-        <div class="row text-center m-t-lg">
-            <div class="col-md-4 col-md-offset-3">
-
-                <form class="form-horizontal" role="form" method="post" action="#">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-6" style="padding-bottom: 10px;">
-                            <input class="form-control" name="firstname" placeholder="Firstname" type="text" required autofocus />
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6" style="padding-bottom: 10px;">
-                            <input class="form-control" name="lastname" placeholder="Lastname" type="text" required />
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12">
-                            <textarea style="resize:vertical;" class="form-control" placeholder="Message..." rows="6" name="comment" required></textarea>
-                        </div>
-                    </div>
-                    <div class="checkbox">
-                      <label>
-                        <input type="checkbox" value="">
-                        <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
-                        I like your company
-                      </label>
-                    </div>
-                    <div class="text-center">
-                        <button class="btn">Send</button>
-                    </div>
-                </form>
-
-            </div>
-            <div class="col-md-3 text-left">
-                <address>
-                    69/A, Some Street Name<br/>
-                    Your City, code 01234 <br/>
-                    Country Name<br/>
-                </address>
-                 <address>
-                    +880 123 456 78 98<br/>
-                    +860 987 648 74 95
-                </address>
-                <address>
-                    company@mail.com<br/>
-                    sales@mail.com
-                </address>
-            </div>
-        </div>
-
-
+<section id="about">
+  <div class="title text-center">
+    <h2><span class="">Why</span> <span style="color: #009dda;">choose us</span></h2>
+    <p>
+        Quisque fermentum, nisl mattis volutpat rhoncus, tellus est congue nibh, ut euismod quam nisi quis felis. </br>Nullam at scelerisque tellus mattis volutpat rhoncus,
+    </p>
+  </div>
+  <div class="description">
+    <div class="description-item text-center">
+      <i class="text-center glyphicon glyphicon-heart-empty"></i>
+      <h3>your title</h3>
+      <p>Duis bibendum diam</br> non erat facilaisis en ter</br> tincidunt. Duis </p>
     </div>
+    <div class="description-item">
+      <i class="fa fa-commenting-o" aria-hidden="true"></i>
+      <h3>your title</h3>
+      <p>Duis bibendum diam</br> non erat facilaisis en ter</br> tincidunt. Duis </p>
+    </div>
+    <div class="description-item-hover">
+      <h3>see more</h3>
+      <i class="fa fa-link"></i>
+    </div>
+    <div class="description-item text-center">
+      <i class="fa fa-laptop" aria-hidden="true"></i>
+      <h3>your title</h3>
+      <p>Duis bibendum diam</br> non erat facilaisis en ter</br> tincidunt. Duis </p>
+    </div>
+    <div class="description-item">
+      <i class="fa fa-star-o" aria-hidden="true"></i>
+      <h3>your title</h3>
+      <p>Duis bibendum diam</br> non erat facilaisis en ter</br> tincidunt. Duis </p>
+    </div>
+    <div class="description-item">
+      <i class="fa fa-flag-o" aria-hidden="true"></i>
+      <h3>your title</h3>
+      <p>Duis bibendum diam</br> non erat facilaisis en ter</br> tincidunt. Duis </p>
+    </div>
+  </div>
 </section>
+<section id="contact">
+      <div class="title text-center">
+        <h2><span class="">Get in</span> <span style="color: #009dda;">touch</span></h2>
+        <p>
+            Quisque fermentum, nisl mattis volutpat rhoncus, tellus est congue nibh, ut euismod quam nisi quis felis. </br>Nullam at scelerisque tellus mattis volutpat rhoncus,
+        </p>
+      </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10001.472827321066!2d24.027046624417228!3d49.83053308067836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1suk!2sua!4v1508574292349" width="100%" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <div class="row text-center contact-form">
+          <div class="col-md-7">
+              <form class="form-horizontal" role="form" method="post" action="#">
+                  <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-12" style="padding-bottom: 10px; padding-right: 0px;">
+                          <input class="form-control" name="firstname" placeholder="Firstname" type="text" required autofocus />
+                      </div>
+                      <!-- width="203px"  height="45px" -->
+                      <div class="col-lg-6 col-md-6 col-sm-12" style="padding-bottom: 10px; padding-right: 0px;">
+                          <input class="form-control" name="lastname" placeholder="E-mail Address" type="text" required />
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-lg-12 col-md-12 col-sm-12" style="padding-bottom: 20px; padding-right: 0px;">
+                          <textarea  class="form-control" placeholder="Message" rows="6" name="comment" required></textarea>
+                      </div>
+                  </div>
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox" value="">
+                      <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                      I like your company
+                    </label>
+                  </div>
+                  <button class="btn">Send</button>
+              </form>
+          </div>
+          <div class="col-md-3 text-left address">
+              <address>
+                  69/A, Some Street Name<br/>
+                  Your City, code 01234 <br/>
+                  Country Name<br/>
+              </address>
+               <address>
+                  +880 123 456 78 98<br/>
+                  +860 987 648 74 95
+              </address>
+              <address>
+                  company@mail.com<br/>
+                  sales@mail.com
+              </address>
+          </div>
+      </div>
+</section>
+<footer>
+  <p>Copyright © Company. All Rights Reserved  2016</p>
+  <div class="social">
+    <i class="sprite sprite-dribble"></i>
+    <i class="sprite sprite-twitter"></i>
+    <i class="sprite sprite-googleplus"></i>
+    <i class="sprite sprite-fb"></i>
+  </div>  
+</footer>
 </body>
 </html>
